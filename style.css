@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans';
+}
+
+
+@font-face {
+    font-family: cascadia;
+    src: url(fontes/Cascadia.ttf) format('truetype');
+}
+@font-face {
+    font-family: croissant;
+    src: url(fontes/CroissantOne-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: dela;
+    src: url(fontes/DelaGothicOne-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: pixel;
+    src: url(fontes/PixelifySans-VariableFont_wght.ttf) format('truetype');
+}
+@font-face {
+    font-family: sedgwick;
+    src: url(fontes/SedgwickAveDisplay-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: unifrank;
+    src: url(fontes/UnifrakturMaguntia-Regular.ttf) format('truetype');
+}
+.cascadia{
+    font-family: cascadia;
+    font-size: 66px;
+}
+.croissant{
+    font-family: croissant;
+    font-size:66px;
+}
+.dela {
+    font-family: dela;
+    font-size: 66px;
+}
+.pixel {
+    font-family: pixel;
+    font-size: 66px;
+}
+.sedgwick {
+    font-family: sedgwick;
+    font-size: 66px;
+}
+.unifrank {
+    font-family: unifrank;
+    font-size: 66px;
+}
+
+.container {
+    display: flex;
+    margin: 0 10%  0 10%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header, .footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.navContainer {
+    width: 50%;
+}
+
+.quemSomos {
+    
+}
+
+.quemSomosDescricao {
+    width: 60%;
+    background-color: antiquewhite;
+}
+.navSuperior {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-top: 25px;
+}
+
+.quemSomosContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quemSomosImg{
+    width: 30%;
+    background-color: crimson;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.navSuperior a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
